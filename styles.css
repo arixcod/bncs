@@ -10,7 +10,7 @@
     --radius: 0.5rem;
 }
 
-*,*::after,::before{
+*,*::after,*::before{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -398,12 +398,15 @@ body{
         min-height: 300px;
         display: flex;
         justify-content: space-around ;
+        align-items: center;
         flex-wrap: wrap;
     }
 .first-column{
     color: #fff;
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
     margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
     line-height: 1.6;
 }
 .first-column>h2{
